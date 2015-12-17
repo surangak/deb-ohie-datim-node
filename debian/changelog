@@ -1,0 +1,17 @@
+ohie-datim-node (0.1.0ubuntu2) trusty; urgency=medium
+
+  * Use jq to add in correct openhim api port
+
+ -- keybase.io/ryanyates <ryanyates@keybase.io>  Wed, 02 Dec 2015 20:57:53 +0000
+
+ohie-datim-node (0.1.0ubuntu1) trusty; urgency=medium
+
+  * Second release, does not include dhis2-datim
+
+ -- keybase.io/ryanyates <ryanyates@keybase.io>  Tue, 17 Nov 2015 21:50:11 +0000
+
+ohie-datim-node (0.1.0) unstable; urgency=low
+
+  * First version
+
+ -- keybase.io/ryanyates <ryanyates@keybase.io>  Tue, 17 Nov 2015 21:37:35 +0000

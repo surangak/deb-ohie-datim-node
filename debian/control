@@ -1,0 +1,12 @@
+Source: ohie-datim-node
+Section: misc
+Priority: optional
+Maintainer: keybase.io/ryanyates <ryanyates@keybase.io>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.9.2
+
+Package: ohie-datim-node
+Architecture: amd64
+Pre-Depends: jq
+Depends: openinfoman, openinfoman-datim, openhim-core-js, openhim-console, dhis2
+Description: Meta package for OpenHIE DATIM Node
