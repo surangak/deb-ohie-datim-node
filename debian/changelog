@@ -1,3 +1,15 @@
+ohie-datim-node (0.1.0ubuntu4) trusty; urgency=low
+
+  * fix postinst 
+
+ -- keybase.io/ryanyates <ryanyates@keybase.io>  Mon, 21 Dec 2015 19:11:15 +0000
+
+ohie-datim-node (0.1.0ubuntu3) trusty; urgency=low
+
+  * remove unnecessary preinst commands 
+
+ -- keybase.io/ryanyates <ryanyates@keybase.io>  Mon, 21 Dec 2015 18:17:42 +0000
+
 ohie-datim-node (0.1.0ubuntu2) trusty; urgency=medium
 
   * Use jq to add in correct openhim api port

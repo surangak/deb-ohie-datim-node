@@ -1,5 +1,2 @@
 #!/bin/sh
-# Set debconf for ohie  datim packages.
-echo openhim-console openhim-console/selecthost string 127.0.0.1 | debconf-set-selections
-echo openhim-console openhim-console/selectport string 5008 | debconf-set-selections
 

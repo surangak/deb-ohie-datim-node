@@ -1,13 +1,15 @@
 #!/bin/sh
 OPENHIM_CONFIG=/etc/openhim/config.json
 TMP_CONFIG=/tmp/openhim-config.json
-
+BACKUP_CONFIG="${OPENHIM_CONFIG}.backup"
 # Stop openhim-core
-stop openhim-core
+sudo stop openhim-core
 
+#Backup config
+sudo cp $OPENHIM_CONFIG $BACKUP_CONFIG
 # Use jq to insert correct api https port
-jq '.api.httpsPort = 5008' $OPEHIM_CONFIG > $TMP_CONFIG
-mv $TMP_CONFIG $OPENHIM_CONFIG
+jq '.api.httpsPort = 5008' $OPENHIM_CONFIG > $TMP_CONFIG
+sudo mv -f $TMP_CONFIG $OPENHIM_CONFIG
 
 # Start openhim-core
-start openhim-core
+sudo start openhim-core
