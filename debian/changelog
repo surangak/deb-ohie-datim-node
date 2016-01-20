@@ -1,3 +1,9 @@
+ohie-datim-node (0.1.0ubuntu5) trusty; urgency=low
+
+  * add adxadapter 
+
+ -- keybase.io/ryanyates <ryanyates@keybase.io>  Wed, 20 Jan 2016 15:38:42 +0000
+
 ohie-datim-node (0.1.0ubuntu4) trusty; urgency=low
 
   * fix postinst 
