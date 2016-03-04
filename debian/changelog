@@ -1,3 +1,15 @@
+ohie-datim-node (0.1.0ubuntu7) trusty; urgency=low
+
+  * add csd-loader, nginx-datim, dhis2-datim 
+
+ -- keybase.io/ryanyates <ryanyates@keybase.io>  Fri, 04 Mar 2016 15:57:33 +0000
+
+ohie-datim-node (0.1.0ubuntu6) trusty; urgency=medium
+
+  * add mechanismimporter and dhis2-datim 
+
+ -- keybase.io/ryanyates <ryanyates@keybase.io>  Mon, 15 Feb 2016 21:01:42 +0000
+
 ohie-datim-node (0.1.0ubuntu5) trusty; urgency=low
 
   * add adxadapter 
