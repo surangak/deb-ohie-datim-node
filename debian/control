@@ -7,6 +7,6 @@ Standards-Version: 3.9.2
 
 Package: ohie-datim-node
 Architecture: amd64
-Pre-Depends: jq
-Depends: openinfoman, openinfoman-datim, openinfoman-dhis, openhim-core-js, openhim-console, dhis2, dhis2-datim, adxadapter, mechanismimporter, dhis2-datim, csd-loader, openhim-config-datim-node, nginx-datim
+Pre-Depends: jq, openhim-core-js
+Depends: openinfoman, openinfoman-datim, openinfoman-dhis, openhim-console, dhis2, dhis2-datim, adxadapter, mechanismimporter, dhis2-datim, csd-loader, openhim-config-datim-node, nginx-datim
 Description: Meta package for OpenHIE DATIM Node
