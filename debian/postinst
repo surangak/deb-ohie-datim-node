@@ -1,0 +1,2 @@
+#!/bin/sh
+echo "Install complete. Please run: sudo datim-config   To finish configuring DATIM Node.
