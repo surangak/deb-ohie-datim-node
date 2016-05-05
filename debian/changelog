@@ -1,3 +1,9 @@
+ohie-datim-node (1.0.0-0ubuntu4) trusty; urgency=medium
+
+  * Package version 0.2 release 
+
+ -- suranga kasthurirathne <surangakas@gmail.com>  Thu, 05 May 2016 15:15:01 +0000
+
 ohie-datim-node (1.0.0-0ubuntu3) trusty; urgency=medium
 
   * add openinfoman-csv 
